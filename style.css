@@ -1,11 +1,22 @@
 body {
     background-color: #202735; /* tweak later */
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+    color: white;
     /* font: */
     font-family: "Atkinson Hyperlegible", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+body h1 {
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.text {
+    padding: 5pc;
+    padding-top: 10pc;
 }
 
 .topnav {
@@ -16,7 +27,6 @@ body {
     padding: 0;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
     overflow: visible;
-    float: right;
     background-color: #1c232f;
 }
 .topnav a {
@@ -37,3 +47,8 @@ body {
 /*.topnav a:hover {
     
 }*/
+
+.icons {
+    float: left;
+    
+}

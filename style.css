@@ -16,7 +16,7 @@ body h1 {
 
 .text {
     padding: 5pc;
-    padding-top: 10pc;
+    padding-top: 7pc;
 }
 
 .topnav {
@@ -41,12 +41,17 @@ body h1 {
     vertical-align: middle;
     /* font: */
     font-family: "Atkinson Hyperlegible", sans-serif;
-    font-weight: 700;
+    font-weight: 400;
     font-style: normal;
 }
-/*.topnav a:hover {
-    
-}*/
+.topnav a:hover {
+    font-weight: 700;
+}
+
+.hdiv {
+    float: left;
+    width: 50%;
+}
 
 .icons {
     float: left;

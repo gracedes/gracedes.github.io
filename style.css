@@ -17,6 +17,9 @@ body h1 {
 .text {
     padding: 2pc;
 }
+p {
+    line-height: 1.5;
+}
 
 .topnav {
     position: fixed;

@@ -19,6 +19,8 @@ body h1 {
 }
 p {
     line-height: 1.5;
+    text-decoration: none;
+    color: white;
 }
 
 .topnav {
@@ -59,4 +61,8 @@ p {
     float: left;
     padding-top: 0px;
     margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
 }
